@@ -1,0 +1,32 @@
+// color palette - these colors will be the color swatches of the Colors section
+
+/*$color-1: #86aece; // Light Blue
+$color-2: #5a5b55; // Dark Grey
+$color-3: #764f47; // Dark Burgandy
+$color-4: #5a5b55; // Light Grey
+$color-5: #e7ddd9; // Light Pink*/
+
+$color-1: #086fb8; // dark blue
+$color-2: #383c4a; // dark grey
+$color-3: #a67e7b; // dark Orange
+$color-4: #d9b29c; // light orange
+$color-5: lighten(#e0d1b2, 20%); // light blue
+
+/*$color-1: #3e4a8f; // dark blue
+$color-2: #4d5ba8; // medium blue
+$color-3: #f1e2cf; // off white
+$color-4: #da9762; // peach
+$color-5: #8b3a21; // burnt orange*/
+
+// additional colors
+
+$success: #6fce72; // green
+$alert: $color-3;  // red
+
+// fonts
+
+
+$primary-font: 'Garamond', serif;
+$secondary-font: 'Impact', sans-serif;
+
+
