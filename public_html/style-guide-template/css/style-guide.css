@@ -1,29 +1,19 @@
-/*$color-1: #86aece; // Light Blue
-$color-2: #5a5b55; // Dark Grey
-$color-3: #764f47; // Dark Burgandy
-$color-4: #5a5b55; // Light Grey
-$color-5: #e7ddd9; // Light Pink*/
-/*$color-1: #3e4a8f; // dark blue
-$color-2: #4d5ba8; // medium blue
-$color-3: #f1e2cf; // off white
-$color-4: #da9762; // peach
-$color-5: #8b3a21; // burnt orange*/
 /* xBackground */
 /* -------------------------------- 
 xBackground 
 -------------------------------- */
 body {
   /* this is the page background */
-  background-color: #fdfcfb; }
+  background-color: #fcfaf7; }
 
 /* -------------------------------- 
 xPatterns
 -------------------------------- */
 .cd-box {
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
-  border: 1px solid #d9b29c;
+  border: 1px solid #ffd762;
   border-radius: 3px;
-  background: #fdfcfb;
+  background: #fcfaf7;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px; }
 
@@ -46,30 +36,30 @@ header {
   /* main navigation background color - full screen on small devices */
   background: #383c4a; }
   .cd-main-nav li a {
-    color: #fdfcfb;
+    color: #fcfaf7;
     border-color: #434859; }
   @media only screen and (min-width: 1024px) {
     .cd-main-nav li a {
       color: #9ba0b3; }
       .cd-main-nav li a.selected {
-        color: #fdfcfb;
+        color: #fcfaf7;
         box-shadow: 0 2px 0 #086fb8; }
       .no-touch .cd-main-nav li a:hover {
-        color: #fdfcfb; } }
+        color: #fcfaf7; } }
 
 .cd-nav-trigger span {
   /* hamburger menu */
-  background-color: #fdfcfb; }
+  background-color: #fcfaf7; }
   .cd-nav-trigger span::before, .cd-nav-trigger span::after {
     /* upper and lower lines */
-    background-color: #fdfcfb; }
+    background-color: #fcfaf7; }
 
 .nav-is-visible .cd-nav-trigger span {
   /* hide line in the center on mobile when nav is visible */
-  background-color: rgba(253, 252, 251, 0); }
+  background-color: rgba(252, 250, 247, 0); }
   .nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
     /* preserve visibility of upper and lower lines - close icon */
-    background-color: #fdfcfb; }
+    background-color: #fcfaf7; }
 
 .cd-download {
   /* download button top-right visible on big devices */
@@ -79,7 +69,7 @@ header {
   .cd-download span {
     /* tooltip */
     background: #086fb8;
-    color: #fdfcfb; }
+    color: #fcfaf7; }
     .cd-download span::before {
       /* right arrow color */
       border-color: #086fb8; }
@@ -93,7 +83,7 @@ main > h1 {
   @media only screen and (min-width: 1600px) {
     main > h1 {
       /* title goes into the header on big devices */
-      color: #fdfcfb; } }
+      color: #fcfaf7; } }
 
 /* xTypography */
 /* -------------------------------- 
@@ -126,12 +116,12 @@ h2 {
 
 section > h2::before {
   /* number before each section title */
-  color: #c48765; }
+  color: #ffc416; }
 
 p {
   font-size: 1.4rem;
   line-height: 1.4;
-  color: #383c4a; }
+  color: #a67e7b; }
   p a {
     color: #086fb8;
     text-decoration: underline; }
@@ -150,7 +140,7 @@ xButtons
   border-radius: .25em;
   font-size: 1.4rem;
   font-family: "Impact", sans-serif;
-  color: #fdfcfb;
+  color: #fcfaf7;
   padding: .6em 2.2em;
   cursor: pointer;
   background: #086fb8; }
@@ -171,7 +161,7 @@ xButtons
     background: transparent;
     box-shadow: inset 0 0 0 1px #086fb8; }
     .no-touch .btn.btn-outline:hover {
-      color: #fdfcfb;
+      color: #fcfaf7;
       background: #086fb8; }
   @media only screen and (min-width: 768px) {
     .btn {
@@ -509,16 +499,16 @@ section {
     display: inline-block;
     margin-right: 1em; }
   .cd-branding ul:last-of-type li:nth-of-type(1) img {
-    width: 90px;
-    height: 90px;
+    width: 200px;
+    height: 200px;
     border-radius: 1em; }
   .cd-branding ul:last-of-type li:nth-of-type(2) img {
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
     border-radius: .6em; }
   .cd-branding ul:last-of-type li:nth-of-type(3) img {
-    width: 32px;
-    height: 32px;
+    width: 150px;
+    height: 150px;
     border-radius: .4em; }
   .cd-branding ul:last-of-type li:nth-of-type(4) img {
     width: 16px;
@@ -581,17 +571,17 @@ section {
   .cd-colors li:nth-of-type(3) .cd-color-swatch::after {
     background: #9c6f6c; }
 .cd-colors li:nth-of-type(4) .cd-color-swatch {
-  background: #d9b29c; }
+  background: #ffd762; }
   .cd-colors li:nth-of-type(4) .cd-color-swatch::before {
-    background: #e0c0ae; }
+    background: #ffdd7c; }
   .cd-colors li:nth-of-type(4) .cd-color-swatch::after {
-    background: #d2a48a; }
+    background: #ffd149; }
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
-  background: #fdfcfb; }
+  background: #fcfaf7; }
   .cd-colors li:nth-of-type(5) .cd-color-swatch::before {
     background: white; }
   .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
-    background: #f6f2e9; }
+    background: #f5eee4; }
 @media only screen and (min-width: 768px) {
   .cd-colors li {
     width: 19%;
