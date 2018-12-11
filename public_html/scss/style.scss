@@ -105,19 +105,18 @@ section{
 
         h1 {
             position: fixed;
-            top: 0;
+            top: -50px;
             left: 0;      
             writing-mode: vertical-rl;
             text-orientation: upright;
-            background-color: $dark-maroon;
+            word-spacing: -25px;
             color: $light-pink;
             width: 4%;
-            height: 90%;
+            height: 150%;
             font-family: "Courier";
             text-transform: uppercase;
             font-size: 2.5em;
             text-align: left;
-            
         }
     }
 }
