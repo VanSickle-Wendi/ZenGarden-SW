@@ -43,7 +43,8 @@ p {
 
 a {
   text-decoration: none;
-  color: #604341; }
+  color: #604341;
+  white-space: nowrap; }
 
 .page-wrapper {
   position: relative;

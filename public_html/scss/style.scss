@@ -62,6 +62,7 @@ p {
 a {
     text-decoration: none;
     color: darken($dark-maroon, 25%);
+    white-space: nowrap;
 }
 
 .page-wrapper {
