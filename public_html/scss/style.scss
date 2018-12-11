@@ -264,11 +264,11 @@ header {
     background-color: lighten($dark-maroon, 15%);
 
 
-    :nth-child(1) {
+/*    :nth-child(1) {
         grid-column-start: 2;
         border-bottom: 1px solid $dark-grey;
         border-left: 1px solid $dark-grey;
-    }
+    }*/
 
     :nth-child(2) {
         grid-column: 1/3;
