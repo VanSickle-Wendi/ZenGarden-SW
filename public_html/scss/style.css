@@ -196,7 +196,7 @@ header {
         grid-column-start: 2;
         grid-row-start: 1;
         justify-self: end;
-        padding: 0; }
+        padding-top: 1em; }
       .benefits :nth-child(2) {
         grid-column-start: 1;
         grid-column-end: 4; } }
@@ -229,25 +229,11 @@ header {
   font-weight: bold;
   grid-column: 1 / span 3 !important;
   font-family: "Courier";
-  font-size: 1em;
-  /*    @media only screen and (min-width: $medium-screen){
-      & {
-        position: absolute;
-        top: 0;
-        left: 87.5%;
-        width: 12.5%;
-        height: 100%;
-        
-        font-size: 1em;
-        text-align: left;
-        background-color: $dark-maroon;
-        color: $light-pink;
-      }
-        a {
-           color: darken($light-pink, 10%);
-           font-weight: bolder;           
-        }
-      }*/ }
+  font-size: 1em; }
+  @media only screen and (min-width: 47em) {
+    [role="contentinfo"] {
+      border-top: 1px solid #383c4a;
+      padding-top: 1em; } }
 
 aside {
   background-color: #fffefb;
