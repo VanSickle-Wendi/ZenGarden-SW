@@ -317,7 +317,7 @@ header {
     display: grid;
     grid-template-columns: 75% 25%;
     grid-template-rows: auto auto;
-    border-bottom: 1px solid $dark-grey;
+/*    border-bottom: 1px solid $dark-grey;*/
     background-color: $color-background;
     
     h3 {
@@ -353,6 +353,9 @@ header {
             :nth-child(2) {
                 grid-column-start: 1;
                 grid-column-end: 4;
+                margin-right: 3em;
+                margin-left: 3em;
+                border-bottom: 1.5px solid $dark_maroon;
             }
         }
     }
@@ -380,6 +383,7 @@ header {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: auto auto auto auto auto;
+            border-bottom: none;
         }
         h3 {
             grid-area: 2 / 3 / span 1 / span 1;
@@ -421,7 +425,10 @@ header {
       & {
 /*         border-top: 1px solid $dark-grey;*/
          padding-top: 1em;
-         text-align: left !important;
+         text-align: center !important;
+         margin-right: 1.5em;
+         margin-left: 1.5em;
+         border-bottom: 1.5px solid $dark_maroon;
       }
    }
 }
@@ -462,15 +469,16 @@ aside {
         .design-selection {
             grid-column-start: 2;
             grid-row-start: 2;
+            justify-self: center;
 
         }
         .design-archives {
             grid-column-start: 3;
-            justify-self: center;
+            justify-self: start;
         }
         .zen-resources {
             grid-row-start: 1;
-            justify-self: center;
+            justify-self: end;
         }
         ul li{
             padding-left: 15%;
