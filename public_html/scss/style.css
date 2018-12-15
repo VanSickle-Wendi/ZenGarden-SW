@@ -316,7 +316,7 @@ header {
 
 aside {
   background-color: #f8f6ea;
-  padding-bottom: 6em; }
+  padding-bottom: 4em; }
   aside h3 {
     font-size: 1.4em;
     background-color: transparent; }
@@ -340,13 +340,13 @@ aside {
       aside .wrapper:after {
         content: "";
         width: 110%;
-        height: 165%;
+        height: 150%;
         grid-row-start: 1;
         grid-row-end: 4;
         grid-column-start: 1;
         grid-column-end: 9;
-        -webkit-clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%);
-        clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 72% 100%, 28% 100%);
+        clip-path: polygon(0 0, 100% 0, 72% 100%, 28% 100%);
         opacity: 0.4;
         background-image: linear-gradient(-180deg, #086fb8, #ffd762, #ffd762, #ffd762, #086fb8, #f8f6ea, #f8f6ea, #086fb8); }
     aside h3 {
@@ -374,7 +374,7 @@ aside {
 
 @-moz-document url-prefix() {
   aside .wrapper:after {
-    height: 130%; } }
+    height: 120%; } }
 footer {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
@@ -398,7 +398,7 @@ footer {
       background-color: #f8f6ea; }
       footer a {
         color: #17191e;
-        padding-top: 1.2em;
+        padding-bottom: 2.5em;
         z-index: 100; }
       footer :nth-child(1) {
         grid-area: 1 / 2 / span 1 / span 1; }

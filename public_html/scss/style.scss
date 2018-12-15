@@ -447,7 +447,7 @@ header {
 
 aside {
     background-color: $color-background;
-    padding-bottom: 6em;
+    padding-bottom: 4em;
     h3 {
         font-size: 1.4em;
         background-color: transparent;
@@ -477,13 +477,13 @@ aside {
             &:after{
                 content: "";
                 width: 110%;
-                height: 165%;
+                height: 150%;
                 grid-row-start: 1;
                 grid-row-end: 4;
                 grid-column-start: 1;
                 grid-column-end: 9;
-                -webkit-clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%);
-                clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%);
+                -webkit-clip-path: polygon(0 0, 100% 0, 72% 100%, 28% 100%);
+                clip-path: polygon(0 0, 100% 0, 72% 100%, 28% 100%);
                 opacity: 0.4;
                 background-image: $gradient-background-bt;
             }
@@ -522,7 +522,7 @@ aside {
 }
 @-moz-document url-prefix(){
     aside .wrapper:after {
-        height: 130%;
+        height: 120%;
     }
 }
 footer {
@@ -549,7 +549,7 @@ footer {
         background-color: $color-background;   
     a {
         color: darken($dark-grey, 15%);
-        padding-top: 1.2em;
+        padding-bottom: 2.5em;
         z-index: 100;
     }
     :nth-child(1) {
