@@ -462,7 +462,7 @@ header {
 
 aside {
     background-color: $color-background;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
     h3 {
         background-color: $lighter-orange;
         font-size: 1.4em;
@@ -482,7 +482,8 @@ aside {
 
     @media only screen and (min-width: $medium-screen) {
         & {
-            grid-column: 2 / span 3;  
+            grid-column: 2 / span 3; 
+            padding-bottom: 4em;
         }
         & .wrapper{
             display: grid;
