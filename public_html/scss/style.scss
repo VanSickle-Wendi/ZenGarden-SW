@@ -517,7 +517,11 @@ aside {
         }
     }
 }
-
+@-moz-document url-prefix(){
+    aside .wrapper:after {
+        height: 130%;
+    }
+}
 footer {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
