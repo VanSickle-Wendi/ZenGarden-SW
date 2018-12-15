@@ -48,9 +48,6 @@ a {
   color: #604341;
   white-space: nowrap; }
 
-#zen-summary a {
-  color: #fbe6a6; }
-
 .page-wrapper {
   position: relative;
   border: 1px solid #383c4a;
@@ -123,11 +120,11 @@ header {
 
 .summary {
   background-color: #577699; }
+  .summary:nth-child(2) a {
+    color: #fbe6a6; }
   @media only screen and (min-width: 47em) {
     .summary p {
-      color: #fcfaf7; }
-      .summary p:nth-child(2) a {
-        color: #30a4f6; } }
+      color: #fcfaf7; } }
 
 .preamble {
   border-bottom: 1px solid #383c4a;
