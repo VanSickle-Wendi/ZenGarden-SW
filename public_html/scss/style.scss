@@ -4,6 +4,7 @@ $dark-grey: #383c4a;
 $light-pink: #fcfaf7;
 $dark-maroon: #a67e7b;
 $light-orange: #ffd762;
+$lighter-orange: #fbe6a6;
 $medium-blue: #086fb8;
 $color-background: #f8f6ea;
 $medium-screen: 47em;
@@ -31,7 +32,7 @@ h1 {
     padding-bottom: 0;
     padding-top: 1em;
     text-align: center;
-    color: #fbe6a6;
+    color: $lighter-orange;
 
 }
 
@@ -74,7 +75,7 @@ a {
 }
 
 #zen-summary a {
-   color: #fbe6a6;
+   color: $lighter-orange;
 }
 
 .page-wrapper {
@@ -449,6 +450,7 @@ aside {
     padding-bottom: 6em;
     h3 {
         font-size: 1.4em;
+        background-color: transparent;
     }
     ul {
         list-style-type: none;
@@ -533,14 +535,18 @@ footer {
     bottom: 0;
     margin-top: 1em;
     background-color: #577699;
+    a {
+       color: $lighter-orange;
+       justify-self: center;
+       align-self: center;
+    }
 
     @media only screen and (min-width: $medium-screen){
         grid-column: 2 / span 3;
         grid-template-columns: 25% 1fr 1fr 1fr 1fr 1fr 25%;
         height: 8em;
         text-align: center;
-        background-color: $color-background;
-    }
+        background-color: $color-background;   
     a {
         color: darken($dark-grey, 15%);
         padding-top: 1.2em;
@@ -561,6 +567,7 @@ footer {
     :nth-child(5) {
             grid-area: 1 / 6 / span 1 / span 1;
         }   
+    }
 }
 
 @media only screen and (min-width: $medium-screen){
