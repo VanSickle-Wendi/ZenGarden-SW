@@ -127,8 +127,22 @@ section{
             text-align: left;
             margin-left: 1em;
             margin-top: 1em;
+            animation-name: move;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
         }
     }
+}
+
+@keyframes move {
+   0% {left:90%; color:$light-pink;}
+   25% {left:90%; color:$light-pink}
+   50% {left:75%; color:$dark-maroon}
+   75% {left:50%; color:$dark-maroon}
+   90% {left:25%; color:$dark-maroon}
+   100% {color:$light-pink;}
 }
 
 header {

@@ -88,8 +88,31 @@ section p {
     font-size: 2.5em;
     text-align: left;
     margin-left: 1em;
-    margin-top: 1em; } }
+    margin-top: 1em;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards; } }
 
+@keyframes move {
+  0% {
+    left: 90%;
+    color: #fcfaf7; }
+  25% {
+    left: 90%;
+    color: #fcfaf7; }
+  50% {
+    left: 75%;
+    color: #a67e7b; }
+  75% {
+    left: 50%;
+    color: #a67e7b; }
+  90% {
+    left: 25%;
+    color: #a67e7b; }
+  100% {
+    color: #fcfaf7; } }
 header {
   background-color: #577699; }
   @media only screen and (min-width: 47em) {
