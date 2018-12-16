@@ -111,16 +111,11 @@ section{
             margin-left: 1em;
             margin-top: 1em;
             z-index: 100;
-            -webkit-animation-name: move;
-                    animation-name: move;
-            -webkit-animation-duration: 3s;
-                    animation-duration: 3s;
-            -webkit-animation-timing-function: linear;
-                    animation-timing-function: linear;
-            -webkit-animation-direction: alternate;
-                    animation-direction: alternate;
-            -webkit-animation-fill-mode: forwards;
-                    animation-fill-mode: forwards;
+            animation-name: move;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
         }
     }
 }
