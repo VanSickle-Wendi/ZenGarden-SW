@@ -85,6 +85,7 @@ section p {
     text-align: left;
     margin-left: 1em;
     margin-top: 1em;
+    z-index: 100;
     animation-name: move;
     animation-duration: 3s;
     animation-timing-function: linear;
