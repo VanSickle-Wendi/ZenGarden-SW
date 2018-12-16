@@ -86,10 +86,15 @@ section p {
     margin-left: 1em;
     margin-top: 1em;
     z-index: 100;
+    -webkit-animation-name: move;
     animation-name: move;
+    -webkit-animation-duration: 3s;
     animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
     animation-direction: alternate;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; } }
 
 @keyframes move {
@@ -162,13 +167,13 @@ header {
       grid-area: 3 / 2 / span 1 / span 2; }
     .preamble:before {
       content: "";
-      width: 160%;
+      width: 190%;
       grid-area: 1 / 1 / span 3 / span 3;
       -webkit-clip-path: polygon(45% 0%, 100% 0, 100% 100%, 45% 100%, 0 50%);
       clip-path: polygon(45% 0%, 100% 0, 100% 100%, 45% 100%, 0 50%);
       justify-self: center;
       opacity: 0.5;
-      background-image: linear-gradient(90deg, #086fb8, #086fb8, #ffd762, #ffd762, #086fb8, #086fb8); } }
+      background-image: linear-gradient(90deg, #086fb8, #086fb8, #086fb8, #ffd762, #ffd762, #086fb8, #086fb8); } }
 
 .explanation {
   display: grid;
@@ -214,13 +219,13 @@ header {
       grid-area: 2 / 1 / span 1 / span 2; }
     .explanation:before {
       content: "";
-      width: 160%;
+      width: 190%;
       grid-area: 1 / 1 / span 2 / span 3;
       -webkit-clip-path: polygon(55% 100%, 0 100%, 0 0, 55% 0, 100% 50%);
       clip-path: polygon(55% 100%, 0 100%, 0 0, 55% 0, 100% 50%);
       justify-self: center;
       opacity: 0.5;
-      background-image: linear-gradient(-90deg, #086fb8, #086fb8, #ffd762, #ffd762, #086fb8, #086fb8); } }
+      background-image: linear-gradient(-90deg, #086fb8, #086fb8, #086fb8, #ffd762, #ffd762, #086fb8, #086fb8); } }
 
 .participation {
   border-bottom: 1px solid #383c4a;
@@ -259,13 +264,13 @@ header {
       grid-area: 3 / 2 / span 1 / span 2; }
     .participation:before {
       content: "";
-      width: 160%;
+      width: 190%;
       grid-area: 1 / 1 / span 3 / span 3;
       -webkit-clip-path: polygon(45% 0%, 100% 0, 100% 100%, 45% 100%, 0 50%);
       clip-path: polygon(45% 0%, 100% 0, 100% 100%, 45% 100%, 0 50%);
       justify-self: center;
       opacity: 0.5;
-      background-image: linear-gradient(90deg, #086fb8, #086fb8, #ffd762, #ffd762, #086fb8, #086fb8); } }
+      background-image: linear-gradient(90deg, #086fb8, #086fb8, #086fb8, #ffd762, #ffd762, #086fb8, #086fb8); } }
 
 .benefits {
   display: grid;
@@ -349,13 +354,13 @@ header {
       grid-area: 4 / 1 / span 1 / span 2; }
     .requirements:before {
       content: "";
-      width: 160%;
+      width: 190%;
       grid-area: 1 / 1 / span 4 / span 3;
       -webkit-clip-path: polygon(55% 100%, 0 100%, 0 0, 55% 0, 100% 50%);
       clip-path: polygon(55% 100%, 0 100%, 0 0, 55% 0, 100% 50%);
       justify-self: center;
       opacity: 0.5;
-      background-image: linear-gradient(-90deg, #086fb8, #086fb8, #ffd762, #ffd762, #086fb8, #086fb8); } }
+      background-image: linear-gradient(-90deg, #086fb8, #086fb8, #086fb8, #ffd762, #ffd762, #086fb8, #086fb8); } }
 
 [role="contentinfo"] {
   font-weight: bold;

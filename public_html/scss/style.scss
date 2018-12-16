@@ -9,8 +9,8 @@ $medium-blue: #086fb8;
 $background-blue: #577699;
 $color-background: darken(#f8f6ea, 3%);
 $medium-screen: 47em;
-$gradient-background-lr: linear-gradient(90deg, $medium-blue, $medium-blue, $light-orange, $light-orange, $medium-blue, $medium-blue);
-$gradient-background-rl: linear-gradient(-90deg, $medium-blue, $medium-blue, $light-orange, $light-orange, $medium-blue, $medium-blue);
+$gradient-background-lr: linear-gradient(90deg, $medium-blue, $medium-blue, $medium-blue, $light-orange, $light-orange, $medium-blue, $medium-blue);
+$gradient-background-rl: linear-gradient(-90deg, $medium-blue, $medium-blue, $medium-blue, $light-orange, $light-orange, $medium-blue, $medium-blue);
 $gradient-background-bt: linear-gradient(-180deg, $medium-blue, $light-orange, $light-orange, $light-orange, $medium-blue, $color-background, $color-background, $medium-blue);
 $polygon-lr: polygon(45% 0%, 100% 0, 100% 100%, 45% 100%, 0 50%);
 $polygon-rl: polygon(55% 100%, 0 100%, 0 0, 55% 0, 100% 50%);
@@ -111,11 +111,16 @@ section{
             margin-left: 1em;
             margin-top: 1em;
             z-index: 100;
-            animation-name: move;
-            animation-duration: 3s;
-            animation-timing-function: linear;
-            animation-direction: alternate;
-            animation-fill-mode: forwards;
+            -webkit-animation-name: move;
+                    animation-name: move;
+            -webkit-animation-duration: 3s;
+                    animation-duration: 3s;
+            -webkit-animation-timing-function: linear;
+                    animation-timing-function: linear;
+            -webkit-animation-direction: alternate;
+                    animation-direction: alternate;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
         }
     }
 }
@@ -194,7 +199,7 @@ header {
         }        
         &:before {
             content: "";
-            width: 160%;
+            width: 190%;
             grid-area: 1 / 1 / span 3 / span 3;
             -webkit-clip-path: $polygon-lr;
             clip-path: $polygon-lr;
@@ -258,7 +263,7 @@ header {
         }
         &:before {
             content: "";
-            width: 160%;
+            width: 190%;
             grid-area: 1 / 1 / span 2 / span 3;
             -webkit-clip-path: $polygon-rl;
             clip-path: $polygon-rl;
@@ -315,7 +320,7 @@ header {
         }
         &:before {
             content: "";
-            width: 160%;
+            width: 190%;
             grid-area: 1 / 1 / span 3 / span 3;
             -webkit-clip-path: $polygon-lr;
             clip-path: $polygon-lr;
@@ -426,7 +431,7 @@ header {
         }        
         &:before {
             content: "";
-            width: 160%;
+            width: 190%;
             grid-area: 1 / 1 / span 4 / span 3;
             -webkit-clip-path: $polygon-rl;
             clip-path: $polygon-rl;
